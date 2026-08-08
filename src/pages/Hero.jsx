@@ -3,7 +3,7 @@ import React from 'react'
 function Hero() {
   return (
     <div className='relative w-full min-h-full md:w-full md:min-h-full'>
-       <img src="/homeimg.png" alt="" className='w-full  h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] object-cover mt-18 md:min-h-screen'>
+       <img src="/homeimg.png" alt="" className='w-full  h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] object-cover mt-18 '>
         </img>
          <div className="absolute inset-0 bg-black/30"></div>
 
