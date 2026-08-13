@@ -38,7 +38,7 @@ function Navbar() {
             navLinks.map((link, index) => (
               <li key={index}>
                 <Link to={link.path} onClick={() => {
-                  onClick = { ScrollTop }
+                   { ScrollTop }
                   setOpen(false)
 
                 }

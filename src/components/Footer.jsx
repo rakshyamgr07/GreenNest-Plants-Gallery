@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='bg-gray-400 flex flex-col '>
            <div className='bg-gray-400 flex flex-col'>
-             <div className='flex flex-col justify-center items-center  md:flex-row md:space-evenly mt-4'>
+             <div className='flex flex-col  items-center  md:flex-row md:space-evenly mt-4'>
 
                 <div className='flex flex-col gap-2 justify-center'>
                     <img src="/logo1.png" alt="" className='h-12 w-12 rounded-full' />
@@ -24,7 +24,7 @@ function Footer() {
                     </div>
 
                 </div>
-                <div className='flex flex-col ml-2 gap-4  h-full m-10 p-4 ml-20'>
+                <div className='flex flex-col  gap-4  h-full m-4 p-8 '>
                     <h1 className='text-green-900 font-bold text-3xl'>Contact Us</h1>
                     <div className='flex flex-row  items-center gap-2 font-medium'>
                         <FaLocationDot className='text-green-700'></FaLocationDot>Kathmandu, Nepal
@@ -41,9 +41,9 @@ function Footer() {
 
                 </div>
 
-                <div  className='flex flex-col ml-2 gap-4  h-full m-10 p-4 ml-20'>
+                <div  className='flex flex-col gap-4  h-full m-4 p-8 '>
                     <h1 className='text-green-900 font-bold text-xl sm:text-2xl md:text-3xl ' > Follow Us</h1>
-                    <div className='flex flex-row text-green-700 gap-4 ml-4 justify-center items-center text-xl p-4'>
+                    <div className='flex flex-row text-green-700 gap-4 justify-center items-center text-xl p-4'>
 
                         <a href="https://facebook.com"><FaFacebook></FaFacebook></a>
                         <a href="https://instagram.com"><FaInstagram></FaInstagram></a>
